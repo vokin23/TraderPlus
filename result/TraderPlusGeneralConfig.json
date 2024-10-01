@@ -1,0 +1,732 @@
+{
+    "Version": "2.5",
+    "ConvertTraderConfigToTraderPlus": 0,
+    "ConvertTraderConfigToTraderPlusWithStockBasedOnCE": 0,
+    "UseGarageToTradeCar": 1,
+    "DisableHeightFailSafeForReceiptDeployment": 0,
+    "HideInsuranceBtn": 0,
+    "HideGarageBtn": 0,
+    "HideLicenceBtn": 0,
+    "EnableShowAllPrices": 0,
+    "EnableShowAllCheckBox": 1,
+    "IsReceiptTraderOnly": 1,
+    "IsReceiptSaveLock": 0,
+    "IsReceiptSaveAttachment": 0,
+    "IsReceiptSaveCargo": 0,
+    "LockPickChance": 0.30000001192092896,
+    "LicenceKeyWord": "Licence",
+    "Licences": [
+        "Car Licence",
+        "Admin Licence"
+    ],
+    "AcceptedStates": {
+        "AcceptWorn": 1,
+        "AcceptDamaged": 1,
+        "AcceptBadlyDamaged": 1,
+        "CoefficientWorn": 0.75,
+        "CoefficientDamaged": 0.5,
+        "CoefficientBadlyDamaged": 0.25
+    },
+    "StoreOnlyToPristineState": 0,
+    "Currencies": [
+        {
+            "ClassName": "TraderPlus_Money_Ruble5000",
+            "Value": 5000
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble2000",
+            "Value": 2000
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1000",
+            "Value": 1000
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble500,TraderPlus_Money_Euro500",
+            "Value": 500
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble200,TraderPlus_Money_Euro200",
+            "Value": 200
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble100,TraderPlus_Money_Euro100,TraderPlus_Money_Dollar100",
+            "Value": 100
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble50,TraderPlus_Money_Euro50,TraderPlus_Money_Dollar50",
+            "Value": 50
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble10,TraderPlus_Money_Euro10,TraderPlus_Money_Dollar10",
+            "Value": 10
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble5,TraderPlus_Money_Euro5,TraderPlus_Money_Dollar5",
+            "Value": 5
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble2_Coin,TraderPlus_Money_Euro2,TraderPlus_Money_Dollar2",
+            "Value": 2
+        },
+        {
+            "ClassName": "TraderPlus_Money_Ruble1_Coin,TraderPlus_Money_Euro1,TraderPlus_Money_Dollar1",
+            "Value": 1
+        }
+    ],
+    "Traders": [
+        {
+            "Id": 0,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Сидорович",
+            "Role": "Trader",
+            "Position": [
+                4545.629883,
+                72.296898,
+                1812.640015
+            ],
+            "Orientation": [
+                -89.069931,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 1,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Бармен",
+            "Role": "Trader",
+            "Position": [
+                4866.97998046875,
+                123.2300033569336,
+                6673.18994140625
+            ],
+            "Orientation": [
+                2.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 2,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Сахаров",
+            "Role": "Trader",
+            "Position": [
+                2454.510009765625,
+                39.0,
+                6209.6298828125
+            ],
+            "Orientation": [
+                90.99999237060547,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 3,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Чистое небо",
+            "Role": "Trader",
+            "Position": [
+                1473.209961,
+                82.357697,
+                1408.650024
+            ],
+            "Orientation": [
+                91.790558,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 4,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Наёмники",
+            "Role": "Trader",
+            "Position": [
+                8373.700195,
+                138.02179,
+                7144.251465
+            ],
+            "Orientation": [
+                -80.115311,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 5,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Братва",
+            "Role": "Trader",
+            "Position": [
+                5039.740234375,
+                119.5999984741211,
+                4632.0400390625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 6,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Свобода",
+            "Role": "Trader",
+            "Position": [
+                7728.64990234375,
+                123.26000213623047,
+                4911.33984375
+            ],
+            "Orientation": [
+                2.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 7,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "ДОЛГ",
+            "Role": "Trader",
+            "Position": [
+                1698.280029296875,
+                48.52000045776367,
+                4057.030029296875
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 8,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Слизни",
+            "Role": "Trader",
+            "Position": [
+                2205.780029,
+                83.420799,
+                2086.629883
+            ],
+            "Orientation": [
+                -2.414455,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 9,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Наука",
+            "Role": "Trader",
+            "Position": [
+                2446.52001953125,
+                39.400001525878906,
+                6218.22021484375
+            ],
+            "Orientation": [
+                -45.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 10,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Ренегаты",
+            "Role": "Trader",
+            "Position": [
+                6858.009766,
+                96.285599,
+                2879.22998
+            ],
+            "Orientation": [
+                -176.309692,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 11,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Монолит",
+            "Role": "Trader",
+            "Position": [
+                5249.401367,
+                135.350067,
+                9412.804688
+            ],
+            "Orientation": [
+                81.942139,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 12,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "ОКСОП",
+            "Role": "Trader",
+            "Position": [
+                4690.83984375,
+                58.15999984741211,
+                1576.8399658203125
+            ],
+            "Orientation": [
+                -7.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 13,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Грех",
+            "Role": "Trader",
+            "Position": [
+                3168.949951,
+                92.596039,
+                10592.799805
+            ],
+            "Orientation": [
+                96.932991,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 14,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Топи",
+            "Role": "Trader",
+            "Position": [
+                9426.759765625,
+                128.6490020751953,
+                9741.3798828125
+            ],
+            "Orientation": [
+                -90.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 15,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "сталкерара около агропрома",
+            "Role": "Trader",
+            "Position": [],
+            "Orientation": [],
+            "Clothes": []
+        },
+        {
+            "Id": 16,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Сбыт груза",
+            "Role": "Trader",
+            "Position": [
+                1672.3699951171875,
+                83.86799621582031,
+                1797.1400146484375
+            ],
+            "Orientation": [
+                -9.161714553833008,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 17,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Нейтралы",
+            "Role": "Trader",
+            "Position": [
+                4854.72021484375,
+                93.0602035522461,
+                2375.2099609375
+            ],
+            "Orientation": [
+                -82.05254364013672,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 18,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Торговец  Агропром",
+            "Role": "Trader",
+            "Position": [
+                2756.18457,
+                38.784126,
+                4855.642578
+            ],
+            "Orientation": [
+                -89.999954,
+                -0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 19,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Исход",
+            "Role": "Trader",
+            "Position": [],
+            "Orientation": [],
+            "Clothes": []
+        },
+        {
+            "Id": 20,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Умиротворение",
+            "Role": "Trader",
+            "Position": [],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 21,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Поиск",
+            "Role": "Trader",
+            "Position": [],
+            "Orientation": [],
+            "Clothes": []
+        },
+        {
+            "Id": 22,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Туман",
+            "Role": "Trader",
+            "Position": [
+                9327.150391,
+                118.378479,
+                2362.100098
+            ],
+            "Orientation": [
+                89.901604,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 23,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Волонтеры",
+            "Role": "Trader",
+            "Position": [],
+            "Orientation": [],
+            "Clothes": []
+        },
+        {
+            "Id": 24,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Брат Ашота - Пашот",
+            "Role": "Trader",
+            "Position": [
+                8535.460938,
+                118.981895,
+                3700.799561
+            ],
+            "Orientation": [
+                -110.310478,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 25,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Черные Ангела",
+            "Role": "Trader",
+            "Position": [
+                5821.330078,
+                152.164001,
+                7968.5
+            ],
+            "Orientation": [
+                -86.669327,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 26,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Станция Янов",
+            "Role": "Trader",
+            "Position": [
+                3535.909912,
+                111.375,
+                12884.299805
+            ],
+            "Orientation": [
+                -177.118713,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 27,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Тень Монолита",
+            "Role": "Trader",
+            "Position": [
+                2870.189941,
+                113.797997,
+                8977.209961
+            ],
+            "Orientation": [
+                38.896156,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 28,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Анклав",
+            "Role": "Trader",
+            "Position": [],
+            "Orientation": [],
+            "Clothes": []
+        },
+        {
+            "Id": 29,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Диггреы",
+            "Role": "Trader",
+            "Position": [
+                3535.290039,
+                111.075996,
+                12857.799805
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 30,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Скитальцы",
+            "Role": "Trader",
+            "Position": [
+                6870.931641,
+                95.499748,
+                506.908722
+            ],
+            "Orientation": [
+                1100.804115,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 31,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "ОДН",
+            "Role": "Trader",
+            "Position": [
+                4597.399902,
+                77.327003,
+                1793.310059
+            ],
+            "Orientation": [
+                95.310074,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 32,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Озёрский",
+            "Role": "Trader",
+            "Position": [
+                3305.899902,
+                102.291,
+                12739.200195
+            ],
+            "Orientation": [
+                87.858665,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 33,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Мобильная группа",
+            "Role": "Trader",
+            "Position": [
+                3300.530029,
+                102.650002,
+                12747.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 34,
+            "Name": "SurvivorM_Elias",
+            "GivenName": "Борис",
+            "Role": "Trader",
+            "Position": [
+                4773.929199,
+                126.903893,
+                6698.121582
+            ],
+            "Orientation": [
+                72.0,
+                -0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 35,
+            "Name": "SurvivorM_Kaito",
+            "GivenName": "Толян",
+            "Role": "Trader",
+            "Position": [
+                4774.119629,
+                126.90387,
+                6702.746094
+            ],
+            "Orientation": [
+                72.0,
+                -0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 36,
+            "Name": "SurvivorM_Quinn",
+            "GivenName": "Евгений",
+            "Role": "Trader",
+            "Position": [
+                4774.160156,
+                126.903893,
+                6712.539063
+            ],
+            "Orientation": [
+                72.0,
+                -0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 37,
+            "Name": "SurvivorM_Rolf",
+            "GivenName": "Евгений",
+            "Role": "Trader",
+            "Position": [
+                4774.608398,
+                126.903877,
+                6717.234375
+            ],
+            "Orientation": [
+                72.0,
+                -0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 38,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Варяг",
+            "Role": "Trader",
+            "Position": [
+                6673.660156,
+                41.589802,
+                1476.420044
+            ],
+            "Orientation": [
+                124.199295,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 39,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Ганза",
+            "Role": "Trader",
+            "Position": [
+                4968.060059,
+                122.209999,
+                6777.209961
+            ],
+            "Orientation": [
+                -88.58448,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 40,
+            "Name": "Land_Furniture_backpack",
+            "GivenName": "Последний День",
+            "Role": "Trader",
+            "Position": [
+                4206.885742,
+                131.514328,
+                9124.335938
+            ],
+            "Orientation": [
+                80.985504,
+                0.0,
+                -0.0
+            ],
+            "Clothes": []
+        }
+    ]
+}
